@@ -16,7 +16,36 @@ function Accordions() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography className="accordionTitle">AFRO HOUSE</Typography>
+          <Typography className="accordionTitle">ALL HOUSE</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <EventCards />
+          <EventCards />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+        <Accordion className='accordion'>
+        <AccordionSummary
+          expandIcon={<SpeakerOutlinedIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography className="accordionTitle">ELECTRO HOUSE</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <EventCards />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='accordion'>
+        <AccordionSummary
+          expandIcon={<SpeakerOutlinedIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography className="accordionTitle">TECH HOUSE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -30,7 +59,36 @@ function Accordions() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
+          <Typography className="accordionTitle">AFRO HOUSE</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <EventCards />
+          <EventCards />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+        <Accordion className='accordion'>
+        <AccordionSummary
+          expandIcon={<SpeakerOutlinedIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
           <Typography className="accordionTitle">ACID HOUSE</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <EventCards />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+        <Accordion className='accordion'>
+        <AccordionSummary
+          expandIcon={<SpeakerOutlinedIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography className="accordionTitle">BASS HOUSE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -58,7 +116,7 @@ function Accordions() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography className="accordionTitle">ELECTRO HOUSE</Typography>
+          <Typography className="accordionTitle">FUNKY HOUSE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -73,6 +131,20 @@ function Accordions() {
           id="panel1-header"
         >
           <Typography className="accordionTitle">PROGRESSIVE HOUSE</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+          <EventCards />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='accordion'>
+        <AccordionSummary
+          expandIcon={<SpeakerOutlinedIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          <Typography className="accordionTitle">TROPICAL HOUSE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

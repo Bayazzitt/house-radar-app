@@ -1,11 +1,21 @@
 .accordion {
     background-color: #f3c800 !important;
-    margin-top: 15px !important;
-    border-radius: 14px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 15px !important;
+  }
+
+  @media (max-width: 768px) {
+    .accordion {
+      margin-top: 15px !important;
+      margin-bottom: 15px !important;
+    }
   }
 
   .accordionTitle {
     font-weight: bold !important;
   }
 
-  
+  .css-1c35hjw-MuiPaper-root-MuiAccordion-root::before {
+    height: 0px !important;
+  }
