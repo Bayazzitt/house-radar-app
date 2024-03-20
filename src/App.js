@@ -3,31 +3,21 @@ import "./App.css";
 import AccordionExpandIcon from "./components/Accordions";
 import Header from "./components/Header";
 import UpComingEvents from "./components/UpComingEvents";
-import EventCards from "./components/EventCards";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <header className="header">
-
         <Header />
       </header>
-
-
-      <main>
+      <main className="main-content">
         <AccordionExpandIcon />
-
-        <article>
-          <UpComingEvents />
-
-          <EventCards />
-        </article>
-
+        <UpComingEvents />
       </main>
-
-      <footer><Footer/></footer>
-      
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

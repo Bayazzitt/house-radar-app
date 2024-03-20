@@ -1,8 +1,9 @@
 import React from 'react'
+import EventCards from './EventCards'
 
 function UpComingEvents() {
   return (
-    <div>UpComingEvents</div>
+    <div><EventCards /></div>
   )
 }
 
