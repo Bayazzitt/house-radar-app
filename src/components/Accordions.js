@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import SpeakerOutlinedIcon from '@mui/icons-material/SpeakerOutlined';
 import './css/Accordion.css'
 import EventCards from './EventCards';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
+
 
 function Accordions() {
   return (
@@ -21,7 +24,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
-          <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack>  
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -36,6 +41,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -50,6 +58,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -64,7 +75,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
-          <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -79,6 +92,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -93,6 +109,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -107,6 +126,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -116,11 +138,14 @@ function Accordions() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography className="accordionTitle">FUNKY HOUSE</Typography>
+          <Typography className="accordionTitle">DISCO HOUSE</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
           <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -135,20 +160,9 @@ function Accordions() {
         <AccordionDetails>
           <Typography>
           <EventCards />
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion className='accordion'>
-        <AccordionSummary
-          expandIcon={<SpeakerOutlinedIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
-        >
-          <Typography className="accordionTitle">TROPICAL HOUSE</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-          <EventCards />
+          <Stack spacing={2}>
+          <Pagination count={10} />
+          </Stack> 
           </Typography>
         </AccordionDetails>
       </Accordion>
